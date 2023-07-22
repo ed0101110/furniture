@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,600&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto', sans-serif;  */
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+
+}
+
+body {
+    margin: 0;
+    /* padding: 0; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.header {
+    background-image: url(../img/header/bg.png);
+    height: 1080px;
+    max-width: 1920px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__info {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header__info-left {
+    width: 570px;
+    position: relative;
+    color: #34383D;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.header__info-left a {
+    padding-left: 40px;
+    color: #34383D;
+    margin-right: 60px;
+}
+
+
+.header__info-left a::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/header/headphone.svg);
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+
+.header__info-left span {
+
+    font-style: italic;
+
+}
+
+
+
+.header__info-right {
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__info-right a {
+    display: inline-block;
+    min-width: 220px;
+    height: 60px;
+    border: 1px solid #CDA861;
+    padding: 16px 23px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header__info-right a.btn-gold {
+    background-color: #CDA861;
+    color: #34383D;
+}
+
+.header__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 190px;
+}
+
+
+.header__title-left {
+    display: flex;
+    min-width: 1050px;
+    align-items: center;
+}
+
+.header__title-left img {
+    margin-right: 45px;
+}
+
+.header__title-right {
+    min-width: 120px;
+
+}
+
+.header__title-right img {
+    margin-right: 40px;
+}
+
+
+
+.menu {}
+
+.menu__item {
+    margin-right: 50px;
+}
+
+.menu__item a {
+    color: #34383D;
+    opacity: 0.6;
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.5s;
+}
+
+.menu__item a:hover {
+    opacity: 1;
+    border-bottom: 3px solid #CDA861;
+}
+
+.header__content {
+    max-width: 660px;
+
+}
+
+.header__content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 66px;
+    line-height: 93px;
+    color: #34383D;
+    margin-bottom: 30px;
+}
+
+h1 span {
+    color: #CDA861;
+    text-decoration: underline;
+}
+
+.header__content-text {
+    opacity: 0.8;
+    color: #34383D;
+    font-weight: 22px;
+    line-height: 26px;
+    min-width:490px;
+    margin-bottom: 60px;
+}
+
+.header__content a {
+    display: inline-block;
+    min-width: 220px;
+    height: 60px;
+    border: 1px solid #CDA861;
+    padding: 16px 23px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    background-color: #CDA861;
+    color: #34383D;
+}
+
+
+/* ===================================== */
+
+.about {
+ padding: 80px 40px;
+}
+.about__inner {
+max-width: 1600px;
+height: 600px;
+background: rgba(205, 168, 97, 0.1);
+margin: 0 auto;
+display: flex;
+align-items: center;
+position: relative;
+}
+.about__inner>img{
+    margin-left: 70px;
+ 
+ }
+.about__decor {
+position: absolute;
+left: -95px;
+bottom: -80px;
+}
+.about__content {
+position: relative;
+margin-left: 79px;
+max-width: 515px;
+}
+
+.section__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #CDA861;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.about__slogan {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 93px;
+    text-transform: uppercase;
+}
+.about__text {
+
+}
+.about__chair {
+position: absolute;
+}
